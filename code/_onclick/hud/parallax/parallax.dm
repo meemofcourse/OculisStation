@@ -35,11 +35,11 @@
 
 	switch(parallax_selection)
 		if (PARALLAX_INSANE)
-			rock.set_layer_settings(layers_to_draw = 5, draw_old_space = FALSE, animate_parallax = TRUE)
+			rock.set_layer_settings(layers_to_draw = 3, draw_old_space = FALSE, animate_parallax = TRUE) // OCULIS EDIT, ORIGINAL: rock.set_layer_settings(layers_to_draw = 5, draw_old_space = FALSE, animate_parallax = TRUE)
 			return
 
 		if(PARALLAX_HIGH)
-			rock.set_layer_settings(layers_to_draw = 4, draw_old_space = FALSE, animate_parallax = TRUE)
+			rock.set_layer_settings(layers_to_draw = 3, draw_old_space = FALSE, animate_parallax = TRUE) // OCULIS EDIT, ORIGINAL: rock.set_layer_settings(layers_to_draw = 4, draw_old_space = FALSE, animate_parallax = TRUE)
 			return
 
 		if (PARALLAX_MED)
@@ -265,16 +265,16 @@
 			return new /atom/movable/screen/parallax_layer/stars(null, null, owner) // OCULIS EDIT, ORIGINAL: return new /atom/movable/screen/parallax_layer/layer_2(null, null, owner)
 		if(3)
 			return new /atom/movable/screen/parallax_layer/planet(null, null, owner)
+		/* // OCULIS EDIT REMOVAL START
 		if(4)
 			if(SSparallax.random_layer)
-				return new SSparallax.random_layer.type(null, null, owner, FALSE, SSparallax.random_layer)
-			/* // OCULIS EDIT REMOVAL START
+				return new SSparallax.random_layer.type(null, null, owner, FALSE, SSparallax.random_layer)=
 			else
 				return new /atom/movable/screen/parallax_layer/layer_3(null, null, owner)
 		if(5)
 			if(SSparallax.random_layer)
 				return new /atom/movable/screen/parallax_layer/layer_3(null, null, owner)
-			*/ //OCULIS EDIT REMOVAL END
+		*/ //OCULIS EDIT REMOVAL END
 
 /atom/movable/screen/parallax_home/proc/regenerate_layers()
 	clear_layers()
