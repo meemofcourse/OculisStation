@@ -324,7 +324,6 @@
 	if(isnull(path_to_augment))
 		path_to_augment = list(
 			/obj/item/organ/cyberimp/chest/nutriment = /datum/augment_item/implant/chest/nutriment_pump,
-			/obj/item/organ/cyberimp/chest/opticalcamo = /datum/augment_item/implant/chest/optical_camo,
 			/obj/item/organ/cyberimp/chest/scanner/lite = /datum/augment_item/implant/chest/internal_health_analyzer/lite,
 			/obj/item/organ/cyberimp/arm/toolkit/armblade/early/l = /datum/augment_item/implant/l_arm/mantis_blade_left,
 			/obj/item/organ/cyberimp/arm/toolkit/power_cord/left_arm = /datum/augment_item/implant/l_arm/charging_implant,
