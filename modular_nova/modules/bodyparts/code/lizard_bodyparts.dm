@@ -14,10 +14,12 @@
 /obj/item/bodypart/leg/left/lizard
 	icon_greyscale = BODYPART_ICON_LIZARD
 	digitigrade_type = /obj/item/bodypart/leg/left/digitigrade/lizard
+	limb_id = SPECIES_LIZARD // OCULIS EDIT ADDITION
 
 /obj/item/bodypart/leg/right/lizard
 	icon_greyscale = BODYPART_ICON_LIZARD
 	digitigrade_type = /obj/item/bodypart/leg/right/digitigrade/lizard
+	limb_id = SPECIES_LIZARD // OCULIS EDIT ADDITION
 
 /obj/item/bodypart/leg/left/digitigrade/lizard
 	icon_greyscale = BODYPART_ICON_LIZARD

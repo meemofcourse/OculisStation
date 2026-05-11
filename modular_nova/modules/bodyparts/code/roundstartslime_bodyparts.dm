@@ -33,12 +33,14 @@
 	biological_state = (BIO_FLESH|BIO_BLOODED)
 	digitigrade_type = /obj/item/bodypart/leg/left/digitigrade/jelly/slime/roundstart
 	burn_modifier = 0.8
+	limb_id = SPECIES_SLIMEPERSON // OCULIS EDIT ADDITION
 
 /obj/item/bodypart/leg/right/jelly/slime/roundstart
 	icon_greyscale = BODYPART_ICON_ROUNDSTARTSLIME
 	biological_state = (BIO_FLESH|BIO_BLOODED)
 	digitigrade_type = /obj/item/bodypart/leg/right/digitigrade/jelly/slime/roundstart
 	burn_modifier = 0.8
+	limb_id = SPECIES_SLIMEPERSON // OCULIS EDIT ADDITION
 
 /obj/item/bodypart/leg/left/digitigrade/jelly/slime/roundstart
 	icon_greyscale = BODYPART_ICON_ROUNDSTARTSLIME
