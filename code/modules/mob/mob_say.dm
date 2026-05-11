@@ -46,7 +46,7 @@
 
 	QUEUE_OR_CALL_VERB_FOR(VERB_CALLBACK(src, TYPE_PROC_REF(/mob, emote), "me", NONE, message, TRUE), SSspeech_controller)
 
-/mob/try_speak(message, ignore_spam = FALSE, forced = null, filterproof = FALSE)
+/mob/try_speak(message, ignore_spam = FALSE, forced = null, filterproof = FALSE, mute_bypass = FALSE) //Oculis edit: adds 'mute_bypass', specifically to allow the 'Do' command to work for mute characters
 	var/list/filter_result
 	var/list/soft_filter_result
 	if(client && !forced && !filterproof)
@@ -87,7 +87,7 @@
 	if(sigreturn & COMPONENT_CANNOT_SPEAK)
 		return FALSE
 
-	if(!..()) // the can_speak check
+	if(!..() && !mute_bypass) // the can_speak check + OCULIS EDIT: adds mute_bypass check for the Do command
 		if(HAS_MIND_TRAIT(src, TRAIT_MIMING))
 			to_chat(src, span_green("Your vow of silence prevents you from speaking!"))
 		else
