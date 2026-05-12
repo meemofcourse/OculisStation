@@ -1,4 +1,0 @@
-author: "Spacemanspark"
-delete-after: True
-changes:
-  - bugfix: "Characters with the 'mute' quirk/trait can now use the 'Do' command as intended."
