@@ -34,3 +34,7 @@
   - rscadd: 'Added the following items to loadout: "Coalition Police Official Jacket",
       "Coalition Police Aerostatic Bomber Jacket", "Coalition Police Baseball Cap",
       "Coalition Police Cap"'
+2026-05-15:
+  Z Man Wit Z Plan:
+  - qol: Added an internals crate to Black Market Trader ruin that contains nonstandard
+      internals types, plasmamen and voxs rejoice!

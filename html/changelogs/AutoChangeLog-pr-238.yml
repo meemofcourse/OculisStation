@@ -1,4 +1,0 @@
-author: "Z Man Wit Z Plan"
-delete-after: True
-changes:
-  - qol: "Added an internals crate to Black Market Trader ruin that contains nonstandard internals types, plasmamen and voxs rejoice!"
