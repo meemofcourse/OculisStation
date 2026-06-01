@@ -1,0 +1,4 @@
+2026-06-01:
+  XeonMations:
+  - bugfix: Fixed oversized people getting huge guts, causing some species to die
+      on the spot.
