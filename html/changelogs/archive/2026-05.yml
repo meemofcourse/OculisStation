@@ -372,9 +372,7 @@
   FalloutFalcon:
   - bugfix: Drying rack no longer accepts or processes dried items
   Glu-furro:
-  - rscadd: 'Increased max prisoners from 2 to 4.
-
-      :cl:'
+  - rscadd: 'Increased max prisoners from 2 to 4.'
   Grammi:
   - qol: Guardian granters (holoparasites injectors, dusty shards, etc) now show if
       they've been used on examine.
