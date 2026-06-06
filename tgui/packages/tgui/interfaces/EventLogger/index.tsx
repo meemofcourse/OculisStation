@@ -61,10 +61,14 @@ function buildMarks(
           : evts[0].info.replace(/<[^>]*>/g, ''),
         tooltipHtml: isMulti
           ? null
-          : sanitizeText(evts[0].info, false, undefined, [
-              'style',
-              'background',
-            ]),
+          : sanitizeText(
+              evts[0].info,
+              false,
+              undefined,
+              ['style', 'background'],
+              undefined,
+              true,
+            ),
         data: evts,
       });
     }
