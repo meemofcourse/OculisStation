@@ -1,0 +1,4 @@
+author: "KnigTheThrasher"
+delete-after: True
+changes:
+  - balance: "reduced damage of .357 bullets from 60 to 40"
