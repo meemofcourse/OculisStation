@@ -1,0 +1,5 @@
+author: "XeonMations"
+delete-after: True
+changes:
+  - bugfix: "Fixed AI being unable to do Do Emotes"
+  - refactor: "Refactored Do Emote Code"
