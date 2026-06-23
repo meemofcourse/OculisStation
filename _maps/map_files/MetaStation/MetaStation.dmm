@@ -46693,7 +46693,6 @@
 /area/station/medical/paramedic)
 "pVE" = (
 /obj/structure/closet/secure_closet/injection{
-	name = "educational injections locker";
 	pixel_x = 2
 	},
 /obj/structure/cable,
@@ -60059,7 +60058,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/button/door/directional/south{
-	id = "prisonereducation";
+	id = "prisonerresolution";
 	name = "Door Bolt Control";
 	normaldoorcontrol = 1;
 	specialfunctions = 4
@@ -62443,8 +62442,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
 	aiControlDisabled = 1;
-	id_tag = "prisonereducation";
-	name = "Prisoner Education Chamber"
+	id_tag = "prisonerresolution";
+	name = "Sentence Resolution Room"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,

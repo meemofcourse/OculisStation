@@ -364,8 +364,8 @@
 		"Lawyer",
 		"Barrister",
 		"Defense Attorney",
-		"Sapient Resources Agent", // IRIS EDIT - it's "Sapient" now
-		"Internal Affairs Agent",
+		"Sophont Resources Agent", // OCULIS EDIT
+		// "Internal Affairs Agent", // OCULIS EDIT REMOVAL
 		"Legal Clerk",
 		"Prosecutor",
 		"Attorney At Law",
